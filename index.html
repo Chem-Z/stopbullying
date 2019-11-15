@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+        <meta charset="utf-8">
+        <title>СТОП Булінг | Головна</title>
+    </head>
+    <body>
+    <font face="Arial">
+        <div id='head'>
+            <a href="index.html"><img src="img/logo.png" id="logo"></a>
+            <div id='menu'>
+                <a href="index.html">Головна</a>
+                <a href="victim.html">Що робити?</a>
+                <a href="more.html">Це цікаво</a>
+                <a href="contacts.html">Контакти</a>
+            </div>
+        </div>
+        <div class="bg"></div>
+        <div class="block">
+            <h1>СТОП Булінг</h1>
+        </div>
+        <script>
+            window.onscroll=()=>{
+                let scroll = window.pageYOffset;
+                document.querySelector(".bg").style.top = `${-scroll}px`;
+            }
+        </script>
+        <div class="buttons">
+            <div id="next">
+                <a href="victim.html#victim">Ви стали жертвою булінгу?</a>
+                <a href="victim.html#witness">Ви — свідок булінгу?</a>
+                <a href="more.html">Дізнатись більше</a>
+            </div>
+        </div>
+        <div id='footer'>
+            <div id="footimg"><img src="img/logo.png" id="if"></div>
+            <a href="https://fb.com" id="flink"><div id="fb"></div></a>
+            <div id="foottxt">
+                <p>Проект Мін'юсту «‎Я маю право!»:<br>0 800 213 103<br>Гаряча лінія з питань захисту дітей:<br>116 111</p>
+                <p>&copy;2019</p>
+            </div>
+        </div>
+    </font>
+    </body>
+</html>
